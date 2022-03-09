@@ -1,0 +1,27 @@
+# initializing the project
+npm init -y
+
+# getting the gitignore
+www.gitignore.io
+
+# it's necessary to have installed editorConfig extention into the
+# to use the configuration inside this file. It will give a satandard
+# format to every project with this file on it. This way we assure all
+# team members works using the same format
+touch .editorConfig
+
+# it's used to get recommendations about good practices in our code
+touch .eslintrc.json
+
+# Adding Scripts into the package.json
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+
+# Installing the packages
+# The flag -D indicates Node that the packages will be installed as dev dependencies only
+# they won't be used in productive environment
+npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier pretter -D
+
+# Install Express (Backend Framework)
+npm install express
