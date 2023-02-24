@@ -39,3 +39,6 @@ const person = new Person();
 console.log(person.sayHi());
 console.log(person.sayHi('Angello'));
 console.log(person.sayHi(2));
+
+
+

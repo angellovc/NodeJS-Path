@@ -22,7 +22,11 @@ class Warrior extends Human {
     whoAmI() {
         console.log("I'm a Warrior");
     }
+
 }
 
 const warrior = new Warrior();
 warrior.whoAmI();
+
+
+
